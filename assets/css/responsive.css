@@ -1,0 +1,426 @@
+@media (max-width: 480px) {
+  .about {
+    margin-top: 3rem;
+  }
+  .aboutLeft h2 {
+    left: 0 !important;
+  }
+
+  .logo {
+    width: 9rem;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  #heroForm {
+    height: 100%;
+  }
+
+  .work1 .row {
+    flex-direction: column;
+  }
+
+  .work1 .row img {
+    width: 100%;
+  }
+
+  #fSection .row {
+    padding: 0.5rem !important;
+  }
+
+  .hero-Left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-Left img{
+    margin: 0;
+    width: 320px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 2rem;
+  }
+
+  .pop {
+    width: 25rem;
+    height: 34rem;
+  }
+
+  .hero-Right {
+    width: 100% !important;
+  }
+
+  .hero-Right form {
+    width: 100% !important;
+    padding-top: 11rem !important;
+  }
+
+  #heroForm img {
+    top: 20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 10rem;
+  }
+
+  .about {
+    padding: 0.2rem !important;
+    margin-top: 2rem;
+  }
+
+  .aboutLeft {
+    padding: 1rem;
+  }
+
+  .aboutLeft h2 {
+    top: -30px;
+    width: 100%;
+    left: 40px;
+  }
+  .aboutLeft h2 b {
+    font-size: 3rem;
+  }
+
+  .aboutImgText {
+    width: 150px !important;
+    right: 20px !important;
+  }
+
+  .aboutImgText h3 {
+    font-size: 1rem;
+  }
+
+  .aboutImgText p {
+    font-size: 0.8rem;
+  }
+
+  .aboutRight {
+    padding: 1rem;
+  }
+
+  .aboutLeft h2 {
+    width: 300px;
+    top: -50px;
+  }
+
+  .workImg img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  nav i {
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .contactForm {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  nav ul {
+    position: absolute;
+    top: -100dvh;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-color: #000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 !important;
+    transition: var(--transition);
+    z-index: 100;
+  }
+
+  nav ul li a i {
+    font-size: 1rem;
+  }
+
+  .hamHead i {
+    display: block;
+  }
+
+  .hamHead {
+    display: flex !important;
+    align-items: center;
+  }
+
+  header {
+    height: 100%;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+
+  .hero-Left,
+  .hero-Right {
+    width: 80% !important;
+    padding: 0 !important;
+  }
+
+  .hero-Left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-Left img{
+    margin: 0;
+    width: 400px;
+  }
+
+  .hero-Right {
+    display: flex;
+    justify-content: center;
+    margin-block: 4rem;
+  }
+
+  .hero-Right form {
+    width: 95%;
+  }
+
+  #fSection .row {
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #fSection .row div {
+    width: 100%;
+  }
+
+  .about {
+    flex-direction: column;
+    height: 100%;
+    gap: 2rem;
+    align-items: center;
+    padding: 3rem;
+  }
+
+  .aboutLeft::after {
+    content: "";
+  }
+
+  .aboutLeft img {
+    width: 100%;
+  }
+
+  .aboutImgText {
+    width: 50%;
+    right: -60px;
+    bottom: 130px;
+  }
+
+  .aboutLeft h2 {
+    font-size: 4rem;
+  }
+
+  #work {
+    flex-direction: column;
+  }
+
+  .workShow {
+    flex-direction: column;
+  }
+
+  .work1,
+  .work2 {
+    width: 100% !important;
+  }
+
+  .workImg {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  header {
+    height: 100%;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+
+  .hero-Left,
+  .hero-Right {
+    width: 80% !important;
+    padding: 0 !important;
+  }
+
+  .hero-Right {
+    display: flex;
+    justify-content: center;
+    margin-block: 4rem;
+  }
+
+  .hero-Right form {
+    width: 95%;
+  }
+
+  #fSection .row {
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #fSection .row div {
+    width: 100%;
+  }
+
+  .about {
+    flex-direction: column;
+    height: 100%;
+    gap: 2rem;
+    align-items: center;
+    padding: 3rem;
+  }
+
+  .aboutLeft::after {
+    content: "";
+  }
+
+  .aboutLeft img {
+    width: 100%;
+  }
+
+  .aboutImgText {
+    width: 50%;
+    right: -60px;
+    bottom: 130px;
+  }
+
+  .aboutLeft h2 {
+    font-size: 4rem;
+  }
+
+  #work {
+    flex-direction: column;
+  }
+
+  .workShow {
+    flex-direction: column;
+  }
+
+  .work1,
+  .work2 {
+    width: 100% !important;
+  }
+
+  .workImg {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex-md-row {
+    flex-direction: row !important;
+  }
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+}
+
+@media (min-width: 576px) {
+  .mb-sm-0 {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-Right {
+    width: 100% !important;
+  }
+
+  .hero-Right form {
+    width: 95% !important;
+    padding-top: 11rem !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .work1 .row {
+    align-items: center !important;
+  }
+
+  .pop{
+    height: 33rem;
+  }
+
+  .inp input{
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slide p {
+    padding: 0 20px;
+  }
+  .nav-btn {
+    display: none;
+  }
+}
+
+.packageBtn {
+  position: relative;
+  bottom: -15px;
+}
+
+@media (max-width: 530px) {
+  .aboutImgText {
+    bottom: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  .aboutImgText {
+    bottom: 40px;
+  }
+
+  .aboutImgText h3 {
+    font-size: 0.8rem;
+  }
+
+  .aboutImgText p {
+    font-size: 0.7rem;
+  }
+
+  .about {
+    margin-top: 5rem;
+  }
+
+  .aboutLeft h2 {
+    left: 10px !important;
+  }
+
+  .pop {
+    width: 18rem;
+  }
+
+  .inp input{
+    padding: 0.5rem;
+  }
+}
